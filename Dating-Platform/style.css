@@ -1,0 +1,419 @@
+@font-face 
+{
+    font-family: "Roboto";
+    src: url("misc/fonts/Roboto-Regular.ttf");
+}
+
+body
+{
+    font-family: "Roboto";
+    margin: 0;
+    background-image: url("misc/meetic-noir.png");
+    background-repeat: no-repeat;
+    background-position:50% 50%;
+    background-attachment:fixed;
+
+}
+
+header
+{
+    width: 100%;
+    background-color: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#img-nav
+{
+    padding: 5px;
+    padding-left: 25px;
+}
+
+.nav
+{
+    width: 100%;
+    display: inline-block;    
+}
+
+.button-nav
+{
+    float: right;
+    padding: 25px;
+}
+
+#inscription
+{
+    background-color:#e84393;
+    color: white;
+    font-family: "Roboto";
+    border: none;
+    font-size: large;
+    font-weight: normal;    
+    padding: 2.5px 10px 2.5px 10px;
+    border-radius: 12.5px;
+    outline: none;
+}
+#connexion
+{
+    background-color:#e84393;
+    color: white;
+    font-family: "Roboto";
+    border: none;
+    font-size: large;
+    font-weight: normal;
+    padding: 2.5px 10px 2.5px 10px;
+    border-radius: 12.5px;
+    outline: none;
+}
+
+#modifier-compte
+{
+    background-color:#e84393;
+    color: white;
+    font-family: "Roboto";
+    border: none;
+    font-size: large;
+    font-weight: normal;
+    padding: 2.5px 10px 2.5px 10px;
+    border-radius: 12.5px;
+    outline: none;
+}
+
+#deconnexion
+{
+    background-color:#e84393;
+    color: white;
+    font-family: "Roboto";
+    border: none;
+    font-size: large;
+    font-weight: normal;
+    padding: 2.5px 10px 2.5px 10px;
+    border-radius: 12.5px;
+    outline: none;
+}
+
+#redirection-deconnexion
+{
+    width: 525px;
+    float: right;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 12.5px;
+}
+
+.redirection-modification
+{
+    width: 425px;
+    float: right;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 12.5px;
+    
+}
+
+
+#fieldset-inscription
+{
+    background-color: black;
+    font-family: "Roboto";
+    color: white;
+    width: 25%;
+    border-radius: 20px;
+    border: none;
+    margin: auto;
+    margin-top: 1.2%; 
+    margin-bottom: 1.2%;
+}
+
+#fieldset-mon-compte
+{
+    position: relative;
+    background-color: black;
+    font-family: "Roboto";
+    color: white;
+    width: 25%;
+    border-radius: 20px;
+    border: none;
+    margin: auto;
+    margin-top: 1.2%; 
+    margin-bottom: 1.2%;
+}
+
+#fieldset-connexion
+{
+    background-color: black;
+    font-family: "Roboto";
+    color: white;
+    width: 25%;
+    border-radius: 20px;
+    border: none;
+    margin: auto;
+    margin-top: 7.8%; 
+    margin-bottom: 7.8%;
+}
+
+#fieldset-modification
+{
+    background-color: black;
+    border-radius: 20px;
+    border: none;
+    font-family: "Roboto";
+    color: white;
+    width: 25%;
+    float: right;
+}
+
+#fieldset-suppression
+{
+    background-color: black;
+    border-radius: 20px;
+    border: none;
+    font-family: "Roboto";
+    color: white;
+    width: 25%;
+    float: right;
+}
+
+h1{
+    display: inline-block;
+    font-size: 40px;
+    margin-top: 9.5px;
+    margin-bottom: 15px;
+}
+#img-form{
+    float: right;
+}
+
+label
+{
+    display: block;
+    width: 150px;
+    float: left;
+}
+
+.input-inscription
+{
+    border-radius: 15px;
+    outline: none;
+    width: 200px;
+    border-width: 2.5px;
+    border-color: #e84393;
+    height: 22.5px;
+}
+
+#date
+{
+    height: 22.5px;
+    font-family: "Roboto";
+    border-radius: 15px;
+    outline: none;
+    border-width: 2.5px;
+    border-color: #e84393;
+}
+
+#submit-inscription-connexion
+{
+    background-color: #e84393;
+    border: none;
+    font-size: large;
+    color: white;
+    padding: 2.5px 10px 2.5px 10px;
+    border-radius: 12.5px;
+}
+.label-modification {
+    display: block;
+    width: 215px;
+    float: left;
+}
+
+.input-modification
+{
+    border-radius: 15px;
+    outline: none;
+    width: 200px;
+    border-width: 2.5px;
+    border-color: #e84393;
+    height: 22.5px;
+}
+
+.submit-modification
+{
+    background-color: #e84393;
+    border: none;
+    font-size: large;
+    outline: none;
+    width: 200px;
+    color: white;
+    padding: 2.5px 10px 2.5px 10px;
+    border-radius: 12.5px;
+    margin-left: 220px;
+}
+
+#submit-annulation
+{
+    background-color: #e84393;
+    border: none;
+    font-size: large;
+    outline: none;
+    width: 200px;
+    color: white;
+    padding: 2.5px 10px 2.5px 10px;
+    border-radius: 12.5px;
+}
+
+#submit-supprimer
+{
+    float: right;
+    background-color: #e84393;
+    border: none;
+    font-size: large;
+    outline: none;
+    width: 200px;
+    color: white;
+    padding: 2.5px 10px 2.5px 10px;
+    border-radius: 12.5px;
+    margin-top: -27px;
+}
+
+#footer-accueil
+
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#footer-inscription
+{
+    width: 100%;
+    background-color: black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#footer-connexion
+{
+    width: 100%;
+    background-color: black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#footer-compte
+{
+    width: 100%;
+    background-color: black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.info-compte
+{
+    font-size: 30px;
+}
+
+.footer-nav
+{
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+a
+{
+    color: white;
+    font-family: "Roboto";
+    text-decoration: none;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+#copyright
+{
+    color: white;
+    font-family: "Roboto";
+    font-size: small;
+    padding-left: 25px;
+}
+
+#message-mineur {
+    background-color: black;
+    color: white;
+    width: 326px;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 12.5px;
+}
+
+#message-date-de-naissance {
+    background-color: black;
+    color: white;
+    width: 326px;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 12.5px;
+}
+
+#message-comfirmation-mot-de-passe {
+    background-color: black;
+    color: white;
+    width: 285px;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 12.5px;
+}
+
+#message-email {
+    background-color: black;
+    color: white;
+    width: 326px;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 12.5px;
+}
+
+#message-compte-créé {
+    background-color: black;
+    color: white;
+    width: 410px;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 12.5px;
+}
+
+.message-mot-de-passe-identifiant {
+    background-color: black;
+    color: white;
+    width: 260px;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 12.5px;
+}
+
+#message-connexion {
+    background-color: black;
+    color: white;
+    width: 430px;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 12.5px;
+}
+
+.comfirmation-mot-de-passe-modif 
+{
+    float: right;
+    background-color: black;
+    color: white;
+    width: 285px;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 12.5px;
+}
+
+
+
+
